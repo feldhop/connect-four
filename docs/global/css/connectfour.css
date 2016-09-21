@@ -1,0 +1,60 @@
+#rack {
+    width:558px;
+    margin:auto;
+    border-style:solid;
+    padding:8px 16px 8px 24px;
+    background-color:yellow;
+    position: relative;
+}
+#chip-color {
+    background-color:red;
+    border-style:solid;
+    border-radius:50%;
+    height:60px;
+    width:60px;
+    margin:30px auto;
+}
+.col-xs-3 {
+    border-style:solid;
+    border-radius:50%;
+    height:60px;
+    width:60px;
+    padding:0px;
+    margin:8px;
+    background-color:white;
+}
+#connect {
+    position:relative;
+    max-width:1294px;
+    margin:auto;
+}
+button {
+    color: white;
+    background-color:black;
+    padding:6px 20px;
+}
+#winner{
+    display: none;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 300px;
+    background-color: rgba(107, 111, 113, 0.95);
+    border: solid 4px #fff;
+    color: white;
+    z-index: 5;
+}
+#winner h2{
+    display:none;
+}
+.win-location{
+    border: solid 6px white;
+}
